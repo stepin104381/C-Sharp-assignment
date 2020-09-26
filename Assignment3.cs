@@ -8,8 +8,9 @@ namespace SampleConApp
 
         public int sumOfPrimes(int from, int to)
         {
-
-            int[] array = new int[to];
+            
+            int range=to+1
+            int[] array = new int[range];
             for (int i = from; i <= to; i++)
             {
                 if (i == 1 || i == 0)
